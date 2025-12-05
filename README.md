@@ -39,18 +39,21 @@ Topologia: Hierárquica (Core/Acesso) com Switch Multilayer L3.
  Serviços: Operam sem servidores locais, consumindo recursos da Sede via DHCP Relay.
 
 ## 📸 Topologia (Screenshots)
-(Aqui você deve colocar as imagens que você me mandou. Salve-as na pasta do projeto e linke aqui)
 
 Visualizar Topologia Geral
+![Topologia Geral do Banco Start](./img.topologias/topologia_Geral.png)
+
+![Topologia Central do Banco Start(SP)](./img.topologias/topologia_SP.png)
 
 Visualizar Detalhe da Sede
+![Topologia Filiais do Banco Start](./img.topologias/topologia_Filiais.png)
 
 ## 🚀 Como Executar
 Tenha o Cisco Packet Tracer instalado (versão 8.0 ou superior).
 
 Clone este repositório.
 
-Abra o arquivo BancoStart_Final.pkt.
+Abra o arquivo Banco_Start.pkt.
 
 Aguarde a convergência da rede (luzes verdes).
 
