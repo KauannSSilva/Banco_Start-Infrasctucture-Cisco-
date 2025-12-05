@@ -9,34 +9,34 @@ A arquitetura foi projetada para suportar serviços críticos (Financeiro) e ope
 ## 🛠️ Tecnologias e Protocolos Utilizados
 ### Simulação: Cisco Packet Tracer 8.2
 
-### Routing: Router-on-a-Stick (Inter-VLAN), Roteamento Estático, Encapsulamento 802.1Q.
+ Routing: Router-on-a-Stick (Inter-VLAN), Roteamento Estático, Encapsulamento 802.1Q.
 
-### Switching: VLANs, Trunking (802.1Q), VTP.
+ Switching: VLANs, Trunking (802.1Q), VTP.
 
-### WAN: Frame Relay (Hub-and-Spoke), Conexões Seriais (HWIC-2T).
+ WAN: Frame Relay (Hub-and-Spoke), Conexões Seriais (HWIC-2T).
 
-## Serviços de Rede:
+### Serviços de Rede:
 
-### DHCP Relay: Centralizado na Sede com distribuição via WAN.
+ DHCP Relay: Centralizado na Sede com distribuição via WAN.
 
-### DNS & HTTP: Servidor de Intranet e resolução de nomes.
+ DNS & HTTP: Servidor de Intranet e resolução de nomes.
 
-### Endereçamento: IPv4 com VLSM (Variable Length Subnet Mask) para otimização de IPs (/24 na Sede, /26 nas Filiais).
+ Endereçamento: IPv4 com VLSM (Variable Length Subnet Mask) para otimização de IPs (/24 na Sede, /26 nas Filiais).
 
 ## 📍 Arquitetura da Rede
-## 🏢 Sede - São Paulo (Core Site)
+### 🏢 Sede - São Paulo (Core Site)
 Topologia: Hierárquica (Core/Acesso) com Switch Multilayer L3.
 
-### Segmentação: 6 VLANs (Tecnologia, RH, Comercial, Financeiro, Adm, Servidores).
+ Segmentação: 6 VLANs (Tecnologia, RH, Comercial, Financeiro, Adm, Servidores).
 
-### Hardware: Cisco 1941 (Router), Catalyst 3560 (Core), Catalyst 2960 (Acesso).
+ Hardware: Cisco 1941 (Router), Catalyst 3560 (Core), Catalyst 2960 (Acesso).
 
-## 🏢 Filiais - Rio de Janeiro e Brasília (Remote Sites)
-### Topologia: Collapsed Core.
+### 🏢 Filiais - Rio de Janeiro e Brasília (Remote Sites)
+ Topologia: Collapsed Core.
 
-### Segmentação: 4 VLANs Locais.
+ Segmentação: 4 VLANs Locais.
 
-### Serviços: Operam sem servidores locais, consumindo recursos da Sede via DHCP Relay.
+ Serviços: Operam sem servidores locais, consumindo recursos da Sede via DHCP Relay.
 
 ## 📸 Topologia (Screenshots)
 (Aqui você deve colocar as imagens que você me mandou. Salve-as na pasta do projeto e linke aqui)
