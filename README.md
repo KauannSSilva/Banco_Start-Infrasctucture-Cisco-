@@ -1,5 +1,17 @@
-# 🏦 Infraestrutura de Rede Corporativa - Banco Start
+<div align="center">
+  <img src="./img/logo_bancoStart.png" alt="Logo Banco Start" width="200">
+  <h1>🏦 Infraestrutura de Rede Corporativa</h1>
+  <h3>Projeto Banco Start</h3>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Status-Concluído-green">
+    <img src="https://img.shields.io/badge/Cisco-Packet_Tracer-blue">
+  </p>
+</div>
+
+<br>
 Projeto de design e implementação de rede WAN/LAN para uma Fintech em expansão nacional, conectando Sede (SP) e Filiais (RJ/BSB).
+
 
 ## 📋 Sobre o Projeto
 Este projeto simula a infraestrutura de rede de uma instituição financeira ("Banco Start") em processo de expansão. O objetivo foi criar uma rede segura, segmentada e escalável, conectando a Matriz em São Paulo a duas novas filiais (Rio de Janeiro e Brasília) através de uma conexão WAN Frame Relay simulada.
